@@ -14,5 +14,5 @@ install:
   - pipenv sync -d
 script:
   - pipenv run flake8 .
-  - pytest Linux_curso_django
+  - pipenv run pytest
 
