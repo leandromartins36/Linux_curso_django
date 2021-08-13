@@ -3,7 +3,7 @@ dist: xenial
 sudo: true
 
 python:
-  -3.9
+  -3.9.6
 env:
   global:
     -PIPENV_VENV_IN_PROJECT=1
