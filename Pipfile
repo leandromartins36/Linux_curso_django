@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 django = "*"
 pytest = "*"
+heroku = "*"
+gunicorn = "*"
 
 [dev-packages]
 flake8 = "*"
