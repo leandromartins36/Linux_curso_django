@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
 from functools import partial
-from decouple import config, Csv
+from decouple import config
 from pathlib import Path
 import dj_database_url
 
@@ -120,7 +120,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
-#Configuração do ambiente de desenvolmimento
+# Configuração do ambiente de desenvolmimento
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
