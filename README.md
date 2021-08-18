@@ -10,4 +10,6 @@ Aplicação disponível em https://linuxmintcursodjango130821.herokuapp.com/
 #Quando sugir o erro: ou must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure()
 #export DJANGO_SETTINGS_MODULE=pypro.settings
 #django-admin runserver
+#user do db  admin@admin.com passwor admin 
+
 [![Build Status](https://app.travis-ci.com/leandromartins36/Linux_curso_django.svg?branch=main)](https://app.travis-ci.com/leandromartins36/Linux_curso_django)
