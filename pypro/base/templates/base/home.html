@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Python Pro</title>
 
@@ -27,9 +27,11 @@
 
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
     <link href="{% static 'css/style.css' %}" rel="stylesheet">
-    <script src="{% static 'js/jquery.min.js' %}"></script>
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
-    <script src="{% static 'js/scripts.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/scripts.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/popper.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.bundle.js' %}"></script>
 
 </head>
 <body>
@@ -50,6 +52,7 @@
     </div>
 </nav>
 
+
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -69,6 +72,43 @@
 
             </div>
         </div>
+    </div>
+
+
+    <form class="form-inline float-lg-left">
+
+
+        <div class="entrar_nome input-group mb-2 mr-sm-2 float-lg-left">
+
+            <input type="text" class="form-control mb-2 mr-sm-2 " id="inlineFormInputName2"
+                   placeholder=" Nome completo">
+
+        </div>
+
+        <div class="input-group mb-2 mr-sm-2 ">
+
+            <input type="email" class="form-control" id="inlineFormInputGroupUsername2" placeholder="E-mail">
+
+        </div>
+        <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+
+        <div class="form-check mb-2 mr-sm-2">
+            <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+            <label class="form-check-label" for="inlineFormCheck">
+                Lembrar me
+            </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+    </form>
+
+    <div class="button pagar mt-3 mb-3">
+        <h4 class="mt-4">Matriculas Abertas! Custo R$1.000,00</h4>
+        <div class="pagar"><label class=""> Garanta já sua Vaga pague em até 12 vezes com cartão</label></div>
+        <script src="https://www.mercadopago.com.br/integrations/v1/web-payment-checkout.js"
+                data-preference-id="79796750-5a535b03-fcd8-4071-949f-77cc75bebbfc" data-source="button">
+        </script>
+
     </div>
     <div class="row">
         <div class="col-md-12">
